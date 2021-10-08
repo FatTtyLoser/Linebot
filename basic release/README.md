@@ -1,5 +1,5 @@
 # Basic release
-
+###### tags: `Linebot` `Python`
 此版本的內容可以直接推送到Heroku服務平台上運行成功，最基本的架構誠如：
 
 ```
