@@ -1,1 +1,0 @@
-web: gunicorn Bao:app --preload
