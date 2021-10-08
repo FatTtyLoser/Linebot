@@ -1,20 +1,23 @@
 # **Linebot相關語法與資訊**
 > [name=FatTtyLoser]
-> [Gihub][https://github.com/FatTtyLoser]
+> [Gihub][https://github.com/FatTtyLoser]  
+> [HackMD][https://hackmd.io/@FatTtyLoser/Linebot_intro]  
 ###### tags `Linebot` `Python`
 ### **Chapter：**
-* **Descript this repositories**  
+* **Descript this repositories**   
 * **LineBotApi**  
 * **HerokuCLI**  
 * **Git**  
+* **PostgreSQL**  
 * **Relevant information collation**  
 ---
 ## **Descript this repositories**
 
-
+> Basic release 是Line-bot最基礎的運行架構。  
+> app release 是梳理過的app形式，方便Debug與擴充功能。  
+> Linebot 是最主要更新版本的Linebot。  
 
 ## **LineBotApi**
-
 
 `line_bot_api.reply_message(reply_token, TextSendMessage(text='Hello World'))`  
 回應從使用者推送過來的事件。  
@@ -69,8 +72,6 @@ Line聊天機器人回覆event(使用image)
 ---
 ## **Git 常用指令**
 
-
-
 `git --version` 查版本
 
 `git init` 初始化當前的目錄，讓 Git 開始進行版本管理。
@@ -99,7 +100,7 @@ Line聊天機器人回覆event(使用image)
 
 * hobby-dev 免費方案。  
 
-Line 接收並回傳到後端的 ==event== 完整內容：
+Line 接收並回傳到後端的 `event` 完整內容：
 ```
 {
   "message": {
